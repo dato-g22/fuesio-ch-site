@@ -49,15 +49,15 @@ html, body {
 }
 
 .banner2 {
-  position: relative;
-  text-align: center;
-  background-color: #c9cacf;
+  background-size: cover;
   margin: 0 auto 0 auto;
+  position: relative;
+  background-color: #c9cacf;
 }
 
 .banner2 h1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px
