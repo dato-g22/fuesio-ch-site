@@ -3,7 +3,6 @@ html, body {
   padding: 0;
   height: 100%;
   font-family: Roboto, Regular;
-  text-align: center;
   background: white;
   color: #333;
 }
@@ -35,7 +34,7 @@ html, body {
   font-weigth: bold;
 }
 
-.section {
+#section-testimonial {
   max-width: 600px;
   margin: 0 auto 0 auto;
   padding: 62px;
@@ -61,6 +60,17 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px
+}
+
+#section-offering {
+  max-width: 600px;
+  margin: 0 auto 0 auto;
+  padding: 62px;
+}
+
+.section-black {
+  background-color: black;
+  color: #777;
 }
 
 .testimonial {
